@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!-- Title -->
-        <title></title>
+        <title>Inicio</title>
 		
 		<!-- Favicon -->
         <link rel="icon" href="img/escudo.png">
@@ -53,9 +53,12 @@
                 <div class="loader-inner"></div>
 
                 <div class="indicator"> 
-                    <svg width="296px" height="42px">
-						<img class="conafia_loader" src="img/conafia_logo.png" alt="#">
-                    </svg>
+					<a href="index.html">
+						<svg width="296px" height="42px">
+							<img class="conafia_loader" src="img/conafia_logo.png" alt="#">
+						</svg>
+					</a>
+                    
                 </div>
             </div>
         </div>
@@ -84,7 +87,7 @@
 				<div class="container">
 					<div class="inner">
 						<div class="row">
-							<div class="col-lg-3 col-md-3 col-12">
+							<div class="col-lg-2 col-md-3 col-12">
 								<!-- Start Logo -->
 								<div class="logo">
 									<a href="index.html"><img class="conafia_logo" src="img/conafia_logo.png" alt="#"></a>
@@ -94,26 +97,31 @@
 								<div class="mobile-nav"></div>
 								<!-- End Mobile Nav -->
 							</div>
-							<div class="col-lg-9 col-md-9 col-12">
+							<div class="col-lg-10 col-md-9 col-12">
 								<!-- Main Menu -->
 								<div class="main-menu">
 									<nav class="navigation">
 										<ul class="nav menu">
-											<li class="active"><a href="#">Inicio <i class="icofont-rounded-down"></i></a>
+											<li><a href="index.html">Inicio<i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
-													<li><a href="index.html">Pagina principal</a></li>
-													<li><a href="index.html">Auspiciadores</a></li>
+													<li class="dropdown_item"><a href="#Acerca">Acerca de </a></li>															
+													<li class="dropdown_item"><a href="#Expositores">Principales expositores</a></li>											
+													<li class="dropdown_item"><a href="#Programa">Programa</a></li>
+													<li class="dropdown_item"><a href="#Visitas">Visitas tecnicas </a></li>
+													<li class="dropdown_item"><a href="#Auspiciadores">Auspiciadores gold </a></li>	
+													<li class="dropdown_item"><a href="#Inscripcion">Inscripcion </a></li>
+												</ul>
+											</li>																								
+											<li><a href="#Expositores">Expositores</a></li>											
+											<li><a href="#Programa">Programa</a></li>
+											<li><a href="#Visitas">Visitas tecnicas </a></li>	
+											<li><a href="#Inscripcion">Inscripcion </a></li>
+											<li><a href="#">Organizacion <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="auspiciadores.html">Auspciadores</a></li>													
 												</ul>
 											</li>
-											<li><a href="#">Expositores </a></li>
-											<li><a href="#">Programacion</a></li>
-											<li><a href="#">Visitas tecnicas <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="index.html">404 Error</a></li>
-												</ul>
-											</li>									
-										
-											<li><a href="contact.html">Croquis</a></li>
+											<li><a href="blog-single.html">Feria </a></li>
 										</ul>
 									</nav>
 								</div>
@@ -178,15 +186,12 @@
 				<!-- Start End Slider -->				
 			</div>
 		</section>
-		<!--/ End Slider Area -->
 		
-		<!-- Start Schedule Area -->
 		<section class="schedule">
 			<div class="container">
 				<div class="schedule-inner">
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-12 ">
-							<!-- single-schedule -->
 							<div class="single-schedule first">
 								<div class="inner">
 									<div class="icon">
@@ -195,7 +200,7 @@
 									</div>
 									<div class="single-content">
 										<span>Fecha de inicio</span>
-										<h4>Del dia 17 al 21 de julio</h4>
+										<h4>Del dia 17 al 21 de Junio</h4>
 										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
 										<a href="#">VER MAS<i class="fa fa-long-arrow-right"></i></a>
 									</div>
@@ -203,7 +208,6 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6 col-12">
-							<!-- single-schedule -->
 							<div class="single-schedule middle">
 								<div class="inner">
 									<div class="icon">
@@ -223,9 +227,7 @@
 				</div>
 			</div>
 		</section>
-		<!--/End Start schedule Area -->
 
-		<!-- Start Fun-facts -->
 		<div id="fun-facts" class="fun-facts section overlay">
 			<section class="call-action overlay2" >
 				<div class="container">
@@ -241,7 +243,6 @@
 				<div class="container">
 					<div class="row">					
 						<div class="col-lg-3 col-md-6 col-12">
-							<!-- Start Single Fun -->
 							<div class="single-fun">
 								<i class="icofont-calendar"></i>
 								<div class="content">
@@ -290,7 +291,8 @@
 				
 		</div>
 		<!--/ End Fun-facts -->
-
+<div id="Acerca"></div>
+<br>
 		<!-- Start Feautes -->
 		<section class="Feautes section" id="Feautes section">
 			<div class="container">
@@ -311,7 +313,7 @@
 								<i class="icofont-engineer"></i>
 							</div>
 							<h3>Profesionales</h3>
-							<p>Paritipacion de expertos de todas las ramas de la ingenieria	</p>
+							<p>Paritipacion de expertos de todas las ramas de la ingenieria y arquitectura</p>
 						</div>
 						<!-- End Single features -->
 					</div>
@@ -341,16 +343,19 @@
 			</div>
 		</section>
 		<!--/ End Feautes -->
-			
 		
-		<!-- Start portfolio -->
+		
+		<!-- Start expositores -->
+		
+		<div id="Expositores"></div>
+		<br><br>
+		
 		<section class="portfolio section" >
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>Expositores</h2>							
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+							<h2>Principales expositores</h2>					
 						</div>
 					</div>
 				</div>
@@ -360,33 +365,114 @@
 					<div class="col-lg-12 col-12">
 						<div class="owl-carousel portfolio-slider">
 							<div class="single-pf">
-								<img src="img/author1.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
+								<!-- Perfil orador -->
+								<div class="single-news">
+									<div class="news-head">
+										<img src="img/author1.jpg" alt="#">
+									</div>
+									<div class="news-body card-expositor" >
+										<div class="news-content">											
+											<h2><a href="blog-single.html">Expositor nro 1</a></h2>
+											<h5>Descripcion: </h5>
+											<p class="text"><i class="fa fa-graduation-cap"></i> Carrera: ingeniera industrial</p>
+											<p class="text"><i class="fa fa-building"></i> Empresa: gloria SA</p>
+											<p class="text"><i class="fa fa-user"></i> Cargo: Directora calidad de producto</p>
+											<a href="portfolio-details.html" class="btn">Ver detalles</a>
+										</div>
+									</div>
+								</div>
+								<!-- End Perfil orador -->
+							</div>	
 							<div class="single-pf">
-								<img src="img/author2.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
+								<!-- Perfil orador -->
+								<div class="single-news">
+									<div class="news-head">
+										<img src="img/author2.jpg" alt="#">
+									</div>
+									<div class="news-body card-expositor">
+										<div class="news-content">											
+											<h2><a href="blog-single.html">Expositor nro 2</a></h2>
+											<h5>Descripcion: </h5>
+											<p class="text"><i class="fa fa-graduation-cap"></i> Carrera: ingeniera industrial</p>
+											<p class="text"><i class="fa fa-building"></i> Empresa: gloria SA</p>
+											<p class="text"><i class="fa fa-user"></i> Cargo: Directora calidad de producto</p>
+											<a href="portfolio-details.html" class="btn">Ver detalles</a>
+										</div>
+									</div>
+								</div>
+								<!-- End Perfil orador -->
+							</div>	
 							<div class="single-pf">
-								<img src="img/author3.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
+								<!-- Perfil orador -->
+								<div class="single-news">
+									<div class="news-head">
+										<img src="img/author3.jpg" alt="#">
+									</div>
+									<div class="news-body card-expositor">
+										<div class="news-content">											
+											<h2><a href="blog-single.html">Expositor nro 3</a></h2>
+											<h5>Descripcion: </h5>
+											<p class="text"><i class="fa fa-graduation-cap"></i> Carrera: ingeniera industrial</p>
+											<p class="text"><i class="fa fa-building"></i> Empresa: gloria SA</p>
+											<p class="text"><i class="fa fa-user"></i> Cargo: Directora calidad de producto</p>
+											<a href="portfolio-details.html" class="btn">Ver detalles</a>
+										</div>
+									</div>
+								</div>
+								<!-- End Perfil orador -->
+							</div>												
 							<div class="single-pf">
-								<img src="img/expositor.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
+								<!-- Perfil orador -->
+								<div class="single-news">
+									<div class="news-head">
+										<img src="img/author3.jpg" alt="#">
+									</div>
+									<div class="news-body card-expositor">
+										<div class="news-content">											
+											<h2><a href="blog-single.html">Expositor nro 4</a></h2>
+											<h5>Descripcion: </h5>
+											<p class="text"><i class="fa fa-graduation-cap"></i> Carrera: ingeniera industrial</p>
+											<p class="text"><i class="fa fa-building"></i> Empresa: gloria SA</p>
+											<p class="text"><i class="fa fa-user"></i> Cargo: Directora calidad de producto</p>
+											<a href="portfolio-details.html" class="btn">Ver detalles</a>
+										</div>
+									</div>
+								</div>
+								<!-- End Perfil orador -->
+							</div>	
 							<div class="single-pf">
-								<img src="img/author5.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-						
-						</div>
+								<!-- Perfil orador -->
+								<div class="single-news">
+									<div class="news-head">
+										<img src="img/author3.jpg" alt="#">
+									</div>
+									<div class="news-body card-expositor" >
+										<div class="news-content">											
+											<h2><a href="blog-single.html">Expositor nro 5</a></h2>
+											<h5>Descripcion: </h5>
+											<p class="text"><i class="fa fa-graduation-cap"></i> Carrera: ingeniera industrial</p>
+											<p class="text"><i class="fa fa-building"></i> Empresa: gloria SA</p>
+											<p class="text"><i class="fa fa-user"></i> Cargo: Directora calidad de producto</p>
+											<a href="portfolio-details.html" class="btn">Ver detalles</a>
+										</div>
+									</div>
+								</div>
+								<!-- End Perfil orador -->
+							</div>						
+						</div>	
+						<div class="text-center" style="padding-top: 20px;">
+							<a href="#" class="btn btn-more">Ver todos los expositores</a>
+						</div>				
 					</div>
 				</div>
+				
 			</div>
 		</section>
-		<!--/ End portfolio -->
-						
+		<!--/ End expositores -->
+
+		<div id="Programa"></div>
+		<br><br>
+		
 		<!-- Start Blog Area -->
 		<section class="blog section" id="blog">
 			<div class="container">
@@ -485,7 +571,140 @@
 		</section>
 		<!-- End Blog Area -->
 
-		<!-- Pricing Table -->
+		
+
+
+		
+		<div id="Visitas"></div>
+		<br><br>
+		<section class="blog section" id="blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>Visitas Tenicas</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-12">
+						<!-- Single Blog -->
+						<div class="single-news">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="news-head">
+										<img src="img/blog1.jpg" alt="#">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="news-body">
+										<div class="news-content">
+											<div class="date">17 Jun, 2024</div>
+											<h2><a href="blog-single.html">Dia 1</a></h2>
+											<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Single Blog -->
+					</div>
+					
+					<div class="col-lg-12 col-md-12 col-12" style="margin-top: 20px;">
+						<!-- Single Blog -->
+						<div class="single-news">
+							<div class="row">
+								
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="news-body">
+										<div class="news-content">
+											<div class="date">17 Jun, 2024</div>
+											<h2><a href="blog-single.html">Dia 1</a></h2>
+											<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="news-head">
+										<img src="img/blog1.jpg" alt="#">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Single Blog -->
+					</div>
+					<!-- Repite este bloque para los demás blogs -->
+				</div>
+			</div>
+		</section>
+		
+		<!-- Start clients -->
+		<div id="Auspiciadores"></div>
+		<br><br>
+		
+		<section class="portfolio section" >
+			
+			<div class="clients overlay2">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="section-title">
+								<h2 style="color: white;">Auspiciadores gold</h2>					
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">	
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-12">
+							<div class="owl-carousel clients-slider">
+								<div class="single-clients">
+									<img src="img/client1.png" alt="#">
+								</div>
+								<div class="single-clients">
+									<img src="img/client2.png" alt="#">
+								</div>
+								<div class="single-clients">
+									<img src="img/client3.png" alt="#">
+								</div>
+								<div class="single-clients">
+									<img src="img/client4.png" alt="#">
+								</div>
+								<div class="single-clients">
+									<img src="img/client5.png" alt="#">
+								</div>
+								<div class="single-clients">
+									<img src="img/client1.png" alt="#">
+								</div>
+								<div class="single-clients">
+									<img src="img/client2.png" alt="#">
+								</div>
+								<div class="single-clients">
+									<img src="img/client3.png" alt="#">
+								</div>
+								<div class="single-clients">
+									<img src="img/client4.png" alt="#">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			
+		</section>
+		<!--/ End expositores -->
+
+
+
+		
+		<!--/Ens clients -->
+
+
+
+<div id="Inscripcion"></div>
+<br><br>
 		<section class="pricing-table section">
 			<div class="container">
 				<div class="row">
@@ -560,187 +779,65 @@
 		</section>	
 		<!--/ End Pricing Table -->
 		
-		<!-- Start service -->
-		<section class="services section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>Los auspiciadores forma 1</h2>						
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-prescription"></i>
-							<h4><a href="service-details.html">General Treatment</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-tooth"></i>
-							<h4><a href="service-details.html">Teeth Whitening</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-heart-alt"></i>
-							<h4><a href="service-details.html">Heart Surgery</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-listening"></i>
-							<h4><a href="service-details.html">Ear Treatment</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-eye-alt"></i>
-							<h4><a href="service-details.html">Vision Problems</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-blood"></i>
-							<h4><a href="service-details.html">Blood Transfusion</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End service -->
-		
-		
-		<!-- Start clients -->
-		<div class="clients overlay">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-12">
-						<div class="owl-carousel clients-slider">
-							<div class="single-clients">
-								<img src="img/client1.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/client2.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/client3.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/client4.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/client5.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/client1.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/client2.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/client3.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/client4.png" alt="#">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/Ens clients -->
-		
-				
 		<!-- Footer Area -->
 		<footer id="footer" class="footer ">
 			<!-- Footer Top -->
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-3 col-md-6 col-12">
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="single-footer">
-								<h2>About Us</h2>
-								<p>Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor incididunt ut labore dolore magna.</p>
-								<!-- Social -->
-								<ul class="social">
-									<li><a href="#"><i class="icofont-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
-									<li><a href="#"><i class="icofont-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont-vimeo"></i></a></li>
-									<li><a href="#"><i class="icofont-pinterest"></i></a></li>
+								<h2>Informacion adicional</h2>
+								<p>Numeros telefonicos</p>
+								<ul class="time-sidual">
+									<li class="day">USMP - filial sur <span>(054)203461</span></li>								
 								</ul>
-								<!-- End Social -->
+													
+								<ul class="time-sidual">
+									<li class="day"><i class="icofont-location-pin"></i>Ubicacion <span>Av. Daniel Alcides Carrión Mz. G. Lote 14, José Luis Bustamante y Rivero 04002</span></li>
+								
+								</ul>
 							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
+						</div>						
+						
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="single-footer f-link">
-								<h2>Quick Links</h2>
+								<h2>Accesos rapidos</h2>
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-12">
 										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Cases</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Other Links</a></li>	
+											<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Inicio</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Expositores</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Programa</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Visitas tecnicas</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Inscripcion</a></li>	
 										</ul>
 									</div>
 									<div class="col-lg-6 col-md-6 col-12">
 										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consuling</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Feria</a></li>										
+											<li><a href="#Auspiciadores"><i class="fa fa-caret-right" aria-hidden="true"></i>Auspiciadores</a></li>											
+										
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6 col-12">
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="single-footer">
-								<h2>Open Hours</h2>
-								<p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p>
-								<ul class="time-sidual">
-									<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-									<li class="day">Saturday <span>9.00-18.30</span></li>
-									<li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+								<h2>Redes sociales</h2>
+								<p>Para mas informacion sobre el evento puedes acceder a cualquiera de nuestras redes y mantenerte mas actualizado sobre el evento</p>
+								<!-- Social -->
+								<ul class="social">
+									<li><a href="#"><i class="icofont-facebook"></i></a></li>
+									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
+									<li><a href="#"><i class="icofont-twitter"></i></a></li>
+									<li><a href="#"><i class="icofont-instagram"></i></a></li>								
 								</ul>
+								<!-- End Social -->
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>Newsletter</h2>
-								<p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
-										onblur="this.placeholder = 'Your email address'" required="" type="email">
-									<button class="button"><i class="icofont icofont-paper-plane"></i></button>
-								</form>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>

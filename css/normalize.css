@@ -37,6 +37,10 @@ img{
 	width: 290px;
 }
 
+.text{
+	font-size: 16px;
+}
+
 video{
 	text-align: center;
 	position: relative;
@@ -459,14 +463,17 @@ Preloader Area CSS
     stroke-dashoffset: 0;
   }
 }
+.btn-more{
+	color: white !important;
+}
 
 .btn {
-	color: #fff;
+	color: #000000;
 	padding: 13px 25px;
 	font-size: 14px;
 	text-transform: capitalize;
 	font-weight: 500;
-	background: #2C2D3F;
+	background: linear-gradient(0deg, rgb(62, 114, 33) 0%, rgba(85, 213, 40, 1) 100%);;
 	position: relative;
 	box-shadow: none;
 	display: inline-block;
@@ -490,7 +497,7 @@ Preloader Area CSS
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #2C2D3F;
+	background: #15913a;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 50%;
@@ -537,8 +544,9 @@ Preloader Area CSS
 	height:100%;
 	width:100%;
 	background:var(--Gris_claro);
-	opacity:0.7;
+	opacity:0;
 }
+
 
 .overlay2{
 	position:relative;
@@ -553,23 +561,36 @@ Preloader Area CSS
 	background:var(--Verde_bosque);
 	opacity:0.9;
 }
+.overlay3{
+	position:relative;
+}
+.overlay3:before{
+	position:absolute;
+	content:"";
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:var(--Gris_claro);
+	opacity:6;
+}
 /* Bread Crumbs */
 .breadcrumbs {
-	background-image: url('../img/bread-bg.jpg');
+	background-image: url('../img/slider1.jpeg');	
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
-	padding: 120px 0px;
+	padding: 80px 0px;	
 }
 .breadcrumbs .bread-inner{
 	z-index:22;
 	text-align:center;
 }
 .breadcrumbs h2{
-	color: #fff;
+	color: #3bb900;
 	text-transform:capitalize;
-	font-size: 38px;
+	font-size: 48px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
@@ -582,26 +603,26 @@ Preloader Area CSS
 	display: inline-block;
 	position: relative;
 	color: #fff;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 500;
 	text-transform: capitalize;
 }
 .breadcrumbs ul li i {
 	margin: 0px 10px;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 600;
 	color:#fff;
 }
 .breadcrumbs ul li a {
 	color: #fff;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 500;
 	text-transform: capitalize;
 	margin:0;
 	padding:0;
 }
 .breadcrumbs ul li a:hover{
-	color:#2C2D3F;
+	color: #3bb900;
 }
 .breadcrumbs ul li.active a {
 	color: #fff;
